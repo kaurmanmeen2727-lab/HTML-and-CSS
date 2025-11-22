@@ -1,55 +1,69 @@
 h1{
- color:  rgb(6, 54, 6);
+ color:  rgb(224, 204, 232);
  text-align: center;
- font-size: 26px;
- font-family:Verdana, Geneva, Tahoma, sans-serif;
- 
+ font-size: 40px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-style: italic;
+ text-shadow: 1px 1px rgb(177, 155, 63);
+ background-color: rgb(245, 245, 151);
+border-radius: 50px;
+padding:50px;
 
 }
- form{
+ form:hover{
     
     color:rgb(13, 49, 13);
     text-align: left;
-    padding: 24px;
-    border: 4px double rgb(7, 43, 7);
+    padding: 45px;
     gap:10;
-    box-shadow: 0 0  100px inset rgba(8, 54, 8);
-    border-radius:20px;
+    box-shadow: 0 0  10px  rgb(112, 110, 121);
+    border-radius:10px;
     margin-bottom:0px;
-    background-color:rgb(177, 217, 177);
+    background-color:rgb(224, 200, 224);
 }
 .form input,
 .form textarea{
-    color:rgb(7, 72, 7);
+    color:rgb(168, 36, 197);
     background-color:white;
-    border: 2px solid darkgreen;
+    border: 2px solid rgb(180, 224, 23);
     border-radius: 15px;
     padding:5px;
+
     
 }
  
+ .form input,
+.form label{
+  color:rgb(251, 250, 247);
+}
+
 .body{
-    background-color: rgb(149, 218, 149);
+    background-color: rgb(123, 165, 183);
     margin-bottom:4px;
-    border-radius: 15px;
-    border:4px solid rgb(6, 54, 6);
+    border-radius: 5px;
     padding:40px;
-    box-shadow: 0 0 20px inset rgb(12, 56, 12);
-    
+    box-shadow: 0 0 20px  rgb(236, 236, 120);
+  box-shadow: 0 0 500px inset rgb(206, 206, 88);
 }
 
 button{
-    color:rgb(11, 45, 11);
-    background-color:white;
-    border: 3px solid darkgreen;
-    margin-left: 1040px;
-    padding:5px;
-    word-spacing: 1px;
+    color:rgb(243, 243, 82);
+    background-color:rgb(83, 55, 138);
+    border: 1px solid rgb(213, 246, 49);
+    margin-left: 420px;
+    padding: 30px;
     border-radius: 15px;
-    margin-bottom:3px;
+    margin-bottom:40px;
+    justify-content: space-evenly;
+    box-shadow:  0 0 10px inset rgb(142, 159, 56);
 }
 .pr{
-   accent-color:darkgreen;
+   accent-color:rgb(238, 185, 9);
     
 
+}
+.ao{
+  color:rgb(182, 68, 235);
+  background-color: black;
+  border:black;
 }
