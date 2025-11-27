@@ -5,7 +5,7 @@ alert("hello world of chirkutts");
 this is how to do a comment in general or multiple line comments
 */
 //the second alert
-alert("how are you");
+alert("abhi submit nhi chl rha pglu");
 //make the image invisible
 //move the image from top to bottom
 //make the image visible *changing the order of these three will effect the fuctionality too or we can say that js mves from top to bottom
